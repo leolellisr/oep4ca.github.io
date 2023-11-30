@@ -3,16 +3,16 @@ layout: default
 title: Literature Review
 subtitle: 
 ---
-# 
 
-# Developmental Robotics
+#  Literature Review
+## Developmental Robotics
 
 Developmental Robotics, also known as epigenetic robotics or "devRobotics," is a multidisciplinary field that combines theories from developmental psychology, neuroscience, biology, and linguistics to create adaptable robots capable of navigating complex and unpredictable environments [(Lungarella et. al., 2007](https://doi.org/10.1080/09540090310001655110). It utilizes formalized and extended versions of these theories to develop control architectures for robots.
 
 The emergence of Developmental Robotics stems from the demand for robots that can perform tasks requiring human-level intelligence in challenging environments by adapting and evolving their behavior. Models and experiments in this field draw inspiration from the principles and mechanisms observed in early human development, notably in Piaget's experiments, where robots exhibit cognitive abilities similar to those seen in children [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Piaget's work emphasizes the incremental nature of human cognitive development [(Cangelosi & Schlesinger, 2014)](https://mitpress.mit.edu/books/developmental-robotics).
 
 
-## Piaget's Theory
+### Piaget's Theory
 Developmental Robotics draws inspiration from the influential theories of Jean Piaget, a Swiss psychologist known for his theory of genetic epistemology, which explores the relationship between human biological and cognitive processes, and the development of complex behaviors [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Central to Piaget's theory are schemas, which are mental structures that aid in the interpretation of concepts and understanding of the environment. As cognitive processes become more sophisticated, new schemas emerge, leading to more complex and adaptive behavior in response to the environment [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
 
 According to Piaget, adaptation or learning involves the adjustment of cognitive structures to the environment through the processes of assimilation and accommodation [(Cook & Cook, 2005)](https://psycnet.apa.org/record/2004-19883-000). Assimilation involves using existing mental structures to interpret experiences and make decisions, while accommodation adjusts existing schemas in response to new information [(Piaget, 1952)](https://doi.org/10.1037/11494-000). These processes are complementary and occur simultaneously, enabling individuals to effectively handle new situations by modifying existing structures or creating new ones [(Piaget, 1952)](https://doi.org/10.1037/11494-000).
@@ -29,7 +29,7 @@ By integrating Piaget's theories and concepts, Developmental Robotics aims to cr
 
 Drawing inspiration from Piaget's work in cognitive development, this project seeks to design robot control architectures that exhibit adaptive learning and the incremental nature of human cognition. This interdisciplinary approach fosters the development of robots that can learn, adapt, and thrive in real-world scenarios.
 
-## Berto's Cognitive Experiments
+### Berto's Cognitive Experiments
 
 In order to establish standardized approaches for investigating the evolution of learning mechanisms in robots within the field of developmental robotics, [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and [(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170) conducted studies on cognitive functions to identify the necessary components for validating cognitive architectures in this context. Drawing on Piaget's research on the sensorimotor period [(Piaget, 1952)](https://doi.org/10.1037/11494-000), the [Bayley Child Development Scale](https://doi.org/10.1007/978-0-387-79061-9_295), literature describing evaluation scenarios for infant learning development, and the parameters and levels of the [ConsScale](https://www.conscious-robots.com/consscale/index.html), [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and [(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170) proposed computational approaches to incorporate human behavior into robots and analyze artificial cognitive development. The experiments were classified based on the specific skills intended for the agent's learning.
 
@@ -54,7 +54,7 @@ Berto's classification of experiments based on specific skills intended for the 
 
 
 
-# Cognitive Architectures
+## Cognitive Architectures
 
 The cognitive revolution [(Harari, 2011)](https://edisciplinas.usp.br/pluginfile.php/4899892/mod_resource/content/2/Sapiens%20Uma%20Breve%20História%20da%20Humanidade.pdf) has spurred computational investigations into various aspects of human mental processes, resulting in the development of cognitive architectures and structures. These frameworks aim to facilitate the study of the human mind, encompassing not only its behavioral aspects but also the underlying cognitive processes that shape and influence behavior [(Harris, 2006)](https://onlinelibrary.wiley.com/doi/10.1002/0470018860.s00559). Over the past few decades, several standard cognitive models have been proposed, employing different methods and approaches to achieve functionality and implementation [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542).
 
@@ -65,7 +65,7 @@ The cognitive revolution [(Harari, 2011)](https://edisciplinas.usp.br/pluginfile
 
 These advancements in cognitive architectures contribute to the exploration of complex cognitive processes in robots and pave the way for the development of intelligent and adaptive robotic systems. In this project, we aim to develop a systematic framework for the evaluation of cognitive architectures, offering seamless integration with existing models like SOAR, CONAIM, and more. Our system will be designed to learn iteratively from the environment, mimicking the incremental nature of human learning. By integrating elements from the human cognitive system, our approach aimed to achieve machine consciousness and provide insights into reinforcement learning and the acquire of sensorimotor and procedural knowledge.
 
-## CONAIM
+### CONAIM
 The CONAIM model (Conscious Attention-Based Integrated Model) [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542) draws inspiration from the attentional architecture proposed by [(Colombini, 2017)](https://dx.doi.org/10.1109/JSYST.2015.2499304), with a specific focus on replacing the attentional controller. This model aims to endow an attention-based agent with awareness and the ability to compute over the saliency map, resulting in a significant reduction in the dimensionality of the model's input space. The CONAIM model consists of two main systems: an attentional system and a cognitive system.
 
 The attentional system, as proposed by [(Simões et. al., 2017)](https://doi.org/10.1109/JSYST.2015.2498542), builds upon the selection for perception model introduced by [(Colombini, 2017)](https://dx.doi.org/10.1109/JSYST.2015.2499304). This architecture incorporates various elements from related works and is capable of handling multiple sensory systems, employing multiple processes for feature extraction, decision-making, and learning support [(Colombini, 2017)](https://dx.doi.org/10.1109/JSYST.2015.2499304).
@@ -76,7 +76,7 @@ Additionally, a set of processes operate in parallel and synchronize with the mo
 
 In our project, we aim to employ the CONAIM model (Conscious Attention-Based Integrated Model) in our framework.  By building upon the CONAIM model and incorporating neural network-based learning, our research aimed to address challenges in reinforcement learning and the acquire of sensorimotor and procedural knowledge. Through this research, we sought to provide insights into achieving machine consciousness in complex environments while overcoming limitations in existing tools and techniques for implementing cognitive architectures.
 
-## SOAR
+### SOAR
 The SOAR architecture is a cognitive architecture designed to simulate human intelligence and problem-solving processes [(Laird, 2008)](https://www.researchgate.net/publication/221328941_Extending_the_Soar_Cognitive_Architecture). In our project, we also aim to employ the SOAR model in our framework.  
  SOAR models and simulates human cognition, including problem-solving, decision-making, learning, and memory. It stands for "State, Operator, And Result" reflecting its fundamental components:
 * State: SOAR maintains an internal representation of the current state of the problem or task. This state consists of a set of working memory elements that encode information about the world, goals, and current intentions;
@@ -85,7 +85,7 @@ The SOAR architecture is a cognitive architecture designed to simulate human int
     
 In our project, we also aim to employ the SOAR model (State, Operator, And Result) in our framework. 
 
-## CST
+### CST
 The Cognitive Systems Toolkit (CST) [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005) is a Java-based toolkit designed for constructing cognitive architectures. 
 At its core, the CST comprises a collection of fundamental concepts that can be employed in a generalized manner to build any cognitive architecture [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005). Its cognitive functions are represented as classes that can be combined into a parallel set of interaction devices, enabling the creation of multi-agent systems with asynchronous and parallel execution capabilities.
 

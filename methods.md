@@ -1,9 +1,9 @@
 ---
-layout: page
+layout: default
 title: Project Details and Methodology
 subtitle: 
 ---
-# 
+# Project Details and Methodology
 
 
 The present study introduces a framework designed for the evaluation of cognitive architectures within various cognitive contexts. We aim to provide an open-source framework that can be utilized for the evaluation of different cognitive architectures, such as SOAR and CONAIM, through cognitive experiments and the utilization of mobile robots. This framework is intended to be an integral part of the Cognitive System Toolkit (CST), facilitating collaborative development and its application in diverse scenarios, with different functionalities and cognitive architectures.

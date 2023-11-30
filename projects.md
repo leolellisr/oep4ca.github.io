@@ -3,8 +3,7 @@ layout: default
 title: Related Work
 subtitle: 
 ---
-# 
-
+# Related Work
 # Online Playgrounds
 
 In order to further advance the reinforcement learning area, the scholarly community necessitates robust benchmarks for the comparative analysis of algorithms. Various benchmarks have been introduced, such as the [Arcade Learning Environment (ALE)](https://github.com/Farama-Foundation/Arcade-Learning-Environment), which presented a suite of Atari 2600 games as problems in reinforcement learning. Additionally, the [RLLab benchmark for continuous control](https://arxiv.org/abs/1604.06778) has been introduced, providing an overview of other benchmarks in the field. OpenAI Gym \cite{brockman_gym} aims to amalgamate the most advantageous features from prior benchmark collections into a software package that maximizes convenience and accessibility.

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Conclusion and Partial Results
 subtitle: 
 ---
