@@ -4,6 +4,8 @@ title: Introduction
 subtitle: 
 ---
 
+# 
+
 
 The remarkable progress in the fields of artificial intelligence and deep learning has propelled the need for artificial agents to function effectively in increasingly intricate environments [(LeCun et al., 2015)](https://doi.org/10.1038/nature14539). As the complexity of tasks escalates, the development of cognitive architectures has emerged as a significant avenue of exploration. These architectures propose that attaining machine consciousness demands a harmonized amalgamation of diverse elements mirroring the human cognitive system, encompassing faculties like memory, reasoning, planning, decision-making, learning, motivation, and attention.
 

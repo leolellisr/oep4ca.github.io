@@ -236,6 +236,7 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-theme: jekyll-theme-slate
+# theme: jekyll-theme-slate
+theme: panthera-jekyll
 title: OEP4CogArc
 description: Project Page
