@@ -47,35 +47,35 @@ To implement the SOAR architecture, SOAR classes will be adapted to perform with
 
 The primary objective of this study is to establish a framework to evaluate cognitive architectures within the context of developmental robotics. This proposed framework aims to evaluate cognitive agents to determine their capacity for continuous learning while avoiding catastrophic forgetting. Additionally, it seeks to evaluate their adeptness in conducting increasingly complex cognitive experiments and optimizing both memory utilization during processing and the time expended at each stage of training. In pursuit of this objective, the subsequent analysis of results is proposed:
 
-Cognitive Analysis: the architectures' modules that are activated and used during agents' learning and during their validation will be analyzed according to the proposes of  [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and compared with propositions from cognitive psychology for human development, in particular, the studies of [(Piaget, 1952)](https://doi.org/10.1037/11494-000)};
+- **Cognitive Analysis**: the architectures' modules that are activated and used during agents' learning and during their validation will be analyzed according to the proposes of  [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and compared with propositions from cognitive psychology for human development, in particular, the studies of [(Piaget, 1952)](https://doi.org/10.1037/11494-000)};
 
-Continuous Learning: it will be verified whether the proposed methodology provides the agents the ability to learn new procedures, at different times, without forgetting previously learned procedures. Specifically, the agents' procedural memory, which stores all learned procedures, will be continuously checked;
+- **Continuous Learning**: it will be verified whether the proposed methodology provides the agents the ability to learn new procedures, at different times, without forgetting previously learned procedures. Specifically, the agents' procedural memory, which stores all learned procedures, will be continuously checked;
 
-Cognitive Experiments: the agents' performance will be verified when executing the proposed cognitive experiments, with the evaluation criteria proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257). In addition, comparisons will be made with other agents that do not have cognitive architectures implemented, through the analysis of the obtained rewards and the maximum number of actions performed by the agents during the execution of the cognitive experiments;
+- **Cognitive Experiments**: the agents' performance will be verified when executing the proposed cognitive experiments, with the evaluation criteria proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257). In addition, comparisons will be made with other agents that do not have cognitive architectures implemented, through the analysis of the obtained rewards and the maximum number of actions performed by the agents during the execution of the cognitive experiments;
 
-Memory And Training Step Time Optimization: the memory used and the time elapsed at each step during agents learning and during their validation will be continuously checked. Comparisons will be made with other agents that do not have cognitive architectures implemented.
+- **Memory And Training Step Time Optimization**: the memory used and the time elapsed at each step during agents learning and during their validation will be continuously checked. Comparisons will be made with other agents that do not have cognitive architectures implemented.
 
-## Project Schedule}
+## Project Schedule
 
 This section presents the schedule for the implementation of this research project. We propose the following activities:
 
-(Done) A1. Literature Review. Continuous process of literature verification, base bibliographies and new related works. Works from the implementation areas (devRobotics, Deep Learning, Cognitive Architectures) and works from human psychology will be analyzed, in order to adapt new cognitive abilities in the used robots.
+**(*Done*) A1. Literature Review:** Continuous process of literature verification, base bibliographies and new related works. Works from the implementation areas (devRobotics, Deep Learning, Cognitive Architectures) and works from human psychology will be analyzed, in order to adapt new cognitive abilities in the used robots.
 
-(Done) A2. Constructive Learning Mechanism Modeling. We developed a constructive learning mechanism (described in Section \ref{sb:marta}). This mechanism will be extended to agregate new adaptive methods. The constructive learning mechanism will be modeled to fulfill all the needs of humanoid agents.
+**(*Done*) A2. Constructive Learning Mechanism Modeling:** We developed a constructive learning mechanism (described in Section \ref{sb:marta}). This mechanism will be extended to agregate new adaptive methods. The constructive learning mechanism will be modeled to fulfill all the needs of humanoid agents.
 
-(In progress) A3. System Implementation. The cognitive systems will be implemented with cognitive modules of CST.
+**(*In progress*) A3. System Implementation:** The cognitive systems will be implemented with cognitive modules of CST.
 
-(In progress) Design The Experiments. The cognitive experiments will be modeled according to the parameters and validation methods proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257), the related literature [(Piaget, 1952)](https://doi.org/10.1037/11494-000)[Lungarella et al. (2007)](https://www.researchgate.net/publication/220233671_Developmental_robotics_A_survey) and adaptations derived from other projects in our work group [(Rossi, 2022)](http://hdl.handle.net/11449/214316) [(Rossi et. al., 2022)](https://doi.org/10.5753/wtdr_ctdr.2022.227371).
+**(*In progress*) Design The Experiments:** The cognitive experiments will be modeled according to the parameters and validation methods proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257), the related literature [(Piaget, 1952)](https://doi.org/10.1037/11494-000)[Lungarella et al. (2007)](https://www.researchgate.net/publication/220233671_Developmental_robotics_A_survey) and adaptations derived from other projects in our work group [(Rossi, 2022)](http://hdl.handle.net/11449/214316) [(Rossi et. al., 2022)](https://doi.org/10.5753/wtdr_ctdr.2022.227371).
 
-(To do) A5. Architectural Refinements. Continuous process of improvement in the architectures according to obtained results.
+**(*To do*) A5. Architectural Refinements:** Continuous process of improvement in the architectures according to obtained results.
 
-(To do) A6. Implement The Experiments. Implementation of cognitive experiments with mobile robots to verify the proposed architectures' performance.
+**(*To do*) A6. Implement The Experiments:** Implementation of cognitive experiments with mobile robots to verify the proposed architectures' performance.
 
-(To do) A7. Perform The Tests And Evaluate Results. Perform tests to analyze what was proposed in each cognitive experiment and evaluate the results according to the defined criteria.
+**(*To do*) A7. Perform The Tests And Evaluate Results:** Perform tests to analyze what was proposed in each cognitive experiment and evaluate the results according to the defined criteria.
 
-(To do) A8. Implement The Cognitive Architectures Evaluation Framework. With the implementations of the chosen architectures, the framework will be implemented to access the architectures and validate their performance with cognitive experiments.
+**(*To do*) A8. Implement The Cognitive Architectures Evaluation Framework:** With the implementations of the chosen architectures, the framework will be implemented to access the architectures and validate their performance with cognitive experiments.
 
-(To do) A9. Implement RESTful API For The Cognitive Architectures Evaluation Framework. With the implementation of the framework for validating chosen architectures, the RESTful API will be implemented to access the tool.
+**(*To do*) A9. Implement RESTful API For The Cognitive Architectures Evaluation Framework:** With the implementation of the framework for validating chosen architectures, the RESTful API will be implemented to access the tool.
 
-(To do) A10. Implement Online Access To The Cognitive Architectures Assessment Framework. With the implementation of the framework for validating chosen architectures, online access to the tool will be implemented.
+**(*To do*) A10. Implement Online Access To The Cognitive Architectures Assessment Framework:** With the implementation of the framework for validating chosen architectures, online access to the tool will be implemented.
 

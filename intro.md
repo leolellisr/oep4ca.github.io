@@ -38,7 +38,7 @@ This work aims to implement and evaluate procedural and sensorimotor learning of
 More specifically, to achieve this goal, we aimed:
 * To integrate established cognitive architectures, including SOAR, CONAIM, and more, within a versatile "plug-and-play" framework, enabling online testing and interaction through a RESTful API;
 
-* Model and implement a framework for evaluate sensorimotor and procedural learning, using cognitive computing tools provided by CST (\emph{Cognitive System Toolkit}) [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005) and deep learning computing tools provided by DL4J (\emph{Deep Learning for Java}) [(DL4J, 2022)](https://deeplearning4j.konduit.ai);
+* Model and implement a framework for evaluate sensorimotor and procedural learning, using cognitive computing tools provided by CST (*Cognitive System Toolkit*) [(Paraense et. al., 2016)](https://dx.doi.org/10.1016/j.bica.2016.07.005) and deep learning computing tools provided by DL4J (*Deep Learning for Java*) [(DL4J, 2022)](https://deeplearning4j.konduit.ai);
 
 * Propose computational implementations based on cognitive experiments, outlined in Berto (2020) [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257); 
 
