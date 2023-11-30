@@ -4,7 +4,7 @@ title: Conclusion and Partial Results
 subtitle: 
 ---
 
-# Conclusion and Partial Results
+# Partial Results
 ## Cognitive Experiments Design
 Despite the significant advancements in Cognitive Architectures and Development Robotics, there remains a noticeable void within the literature related to the evaluation of cognitive architectures and the sophisticated functionalities displayed by robots. Acknowledging this gap, our objective is to forge a connection between the insights derived from human developmental theories and their potential implications in the field of robotics. Central to our investigation is the premise that learning follows a cumulative trajectory characterized by increasing complexity. Consequently, our focus centers on the initial stages of human development, particularly within the domain encompassing children aged 0 to 2 years.
 
@@ -144,8 +144,7 @@ Both agents were trained for 100 epochs in this substage, with a maximum of 500 
 \label{fig:MartaResults3}
 \end{figure*}
 
-In summation, the experiments and analysis of preliminary results affirm the viability and substantial promise of the proposed schedule outlined in the previous chapter. The results garnered from these experiments suggests that this schedule holds significant potential to advance the forefront of cognitive architectures. These preliminary findings not only validate the feasibility of the proposed approach but also underscore its capacity to stimulate further inquiry and innovation in the field. As such, this research lays a robust foundation for future investigations, aiming to propel the evolution of cognitive architectures toward new horizons of understanding and application. 
-
+#### Test Results
 
 \begin{table}
 \centering
@@ -168,4 +167,10 @@ Tabular 3rd substage & 118 & 103 \\
 \label{t:tests}
 
 \end{table}
+
+
+# Conclusion
+
+In summation, the experiments and analysis of preliminary results affirm the viability and substantial promise of the proposed schedule outlined in the previous chapter. The results garnered from these experiments suggests that this schedule holds significant potential to advance the forefront of cognitive architectures. These preliminary findings not only validate the feasibility of the proposed approach but also underscore its capacity to stimulate further inquiry and innovation in the field. As such, this research lays a robust foundation for future investigations, aiming to propel the evolution of cognitive architectures toward new horizons of understanding and application. 
+
 

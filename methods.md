@@ -3,8 +3,7 @@ layout: default
 title: Project Details and Methodology
 subtitle: 
 ---
-# Project Details and Methodology
-
+# Project Details 
 
 The present study introduces a framework designed for the evaluation of cognitive architectures within various cognitive contexts. We aim to provide an open-source framework that can be utilized for the evaluation of different cognitive architectures, such as SOAR and CONAIM, through cognitive experiments and the utilization of mobile robots. This framework is intended to be an integral part of the Cognitive System Toolkit (CST), facilitating collaborative development and its application in diverse scenarios, with different functionalities and cognitive architectures.
 
@@ -12,9 +11,9 @@ Within the scope of this research, we will implement a learning strategy featuri
 
 To implement the architectures with a view to executing and evaluating the set of cognitive experiments (proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257)), we will use mobile humanoid robots. The implementations and ways of analyzing the results are based on the experiments proposed by [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) for the acquisition of intelligent behaviors in artificial agents, the related literature [(Piaget, 1952)](https://doi.org/10.1037/11494-000) [Lungarella et al. (2007)](https://www.researchgate.net/publication/220233671_Developmental_robotics_A_survey), and adaptations derived from other projects of the work group [(Rossi, 2022)](http://hdl.handle.net/11449/214316) [(Rossi et. al., 2022)](https://doi.org/10.5753/wtdr_ctdr.2022.227371)[(Berto et. al., 2023)](https://doi.org/10.1016/j.cogsys.2023.101170). Humanoid robots will be used to perform the cognitive experiments and validate the architectures.
 
-# Materials
+## Materials
 
-## Robotic Agents
+### Robotic Agents
 
 We propose to implement and validate the proposed system with humanoid robots. 
 
@@ -24,25 +23,27 @@ Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms
 
 The Simulation environment and the agents are shown in the Figure \ref{fig:Marta}. The Marta robot is equipped with an RGB-D camera and has a virtual actuator, named as "fovea". The environment is distributed with colored blocks and a Pioneer P3DX robot acts as a distractor. 
 
-## Simulation Environment
+### Simulation Environment
 
 We aim to perform the experiments on physical platforms to study learning development in robots supported with continual and incremental learning through sensorimotor experimentation. However, to avoid damage to physical models during preliminary experimentation, the cognitive system will first be tested in simulated environments.
 The environment for simulating robotic agents chosen to carry out the experiments with humanoid Marta is [CoppeliaSim](https://www.coppeliarobotics.com/), an update of the V-REP simulator. 
 
 
-## Deeplearning4j - DL4J
+### Deeplearning4j - DL4J
 
 The  mechanism for procedural learning based on neural networks implementation will be performed with [Eclipse Deeplearning4j toolkit](https://deeplearning4j.konduit.ai). DL4J is a framework to perform deep learning in the JVM, that allows training java models while interacting with the python ecosystem through a mixture of python execution through cpython bindings, model import support, and interoperability with other runtimes such as tensorflow-java and onnxruntime. The libraries are fully open source, Apache 2.0 under open governance on the Eclipse foundation.
 
-# CONAIM Implementation Scheme
+# Methodology
+
+## CONAIM Implementation Scheme
 
 To implement the CONAIM architecture, CONAIM classes will be adapted to perform *bottom-up* and *top-down* attention with the  mechanism for procedural learning, using CST and DL4J tools. The agent's attentional system receives stimuli related to the objectives of each experiment. These stimuli are submitted to the attentional system of CONAIM composed of *bottom-up* and *top-down* mechanisms. The classes that collect sensory data and the mechanisms that make up the attentional system of CONAIM will be implemented for the agent with cognitive tools of CST in language *Java*. 
 
-# SOAR Implementation Scheme
+## SOAR Implementation Scheme
 
 To implement the SOAR architecture, SOAR classes will be adapted to perform with [CST Bindings](https://github.com/CST-Group/cst-bindings). CST Bindings allows to use SOAR rules with Java classes. The classes that collect sensory data will be implemented for the agent with cognitive tools of CST in language *Java*. 
 
-# Analysis Of Results
+## Analysis Of Results
 
 The primary objective of this study is to establish a framework to evaluate cognitive architectures within the context of developmental robotics. This proposed framework aims to evaluate cognitive agents to determine their capacity for continuous learning while avoiding catastrophic forgetting. Additionally, it seeks to evaluate their adeptness in conducting increasingly complex cognitive experiments and optimizing both memory utilization during processing and the time expended at each stage of training. In pursuit of this objective, the subsequent analysis of results is proposed:
 
@@ -54,7 +55,7 @@ Cognitive Experiments: the agents' performance will be verified when executing t
 
 Memory And Training Step Time Optimization: the memory used and the time elapsed at each step during agents learning and during their validation will be continuously checked. Comparisons will be made with other agents that do not have cognitive architectures implemented.
 
-# Project Schedule}
+## Project Schedule}
 
 This section presents the schedule for the implementation of this research project. We propose the following activities:
 
