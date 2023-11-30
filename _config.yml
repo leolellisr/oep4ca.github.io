@@ -14,12 +14,12 @@ author: leolellisr
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  🇧🇷🏳️‍🌈🖖 About Me: "aboutme"
-  🕵🏻🤖 Work:
-    - 🔬🕵🏻 Current Projects: "research"
-    - 🤓📚 Publications: "publications"
-  🦾🤖 Experience: "projects"
-  👾 Github: "https://github.com/leolellisr"
+  Introduction: "intro"
+  Literature Review: "research"
+  Related Work: "projects"
+  Project Details and Methodology: "methods"
+  Conclusion and Partial Results: "conclusion"
+  Contact: contact
 
 # --- Logo --- #
 
@@ -237,5 +237,5 @@ plugins:
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
 theme: jekyll-theme-slate
-title: Leonardo de Lellis Rossi
-description: Personal Projects Page
+title: An Online Evaluation Playground For Cognitive Architectures With Developmental Robotics
+description: Project Page
