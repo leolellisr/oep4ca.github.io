@@ -17,6 +17,7 @@ navbar-links:
   Introduction: "intro"
   Literature Review: "research"
   Related Work: "projects"
+  ~.~ 
   Project Details and Methodology: "methods"
   Conclusion and Partial Results: "conclusion"
   Contact: contact
@@ -236,7 +237,6 @@ plugins:
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
-# theme: jekyll-theme-slate
-remote_theme: christianezeani/panthera-jekyll
+theme: jekyll-theme-slate
 title: OEP4CogArc
 description: Project Page
