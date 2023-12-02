@@ -21,7 +21,7 @@ The Marta humanoid robot [(Chenatti et. al., 2018)](http://sistemaolimpo.org/mid
 
 Other robots, such as the Pioneer P3DX, which will not have cognitive algorithms implemented, can be used as mobile distractors.  
 
-The Simulation environment and the agents are shown in the Figure \ref{fig:Marta}. The Marta robot is equipped with an RGB-D camera and has a virtual actuator, named as "fovea". The environment is distributed with colored blocks and a Pioneer P3DX robot acts as a distractor. 
+ The Marta robot is equipped with an RGB-D camera and has a virtual actuator, named as "fovea". The environment is distributed with colored blocks and a Pioneer P3DX robot acts as a distractor. 
 
 ### Simulation Environment
 
@@ -31,7 +31,7 @@ The environment for simulating robotic agents chosen to carry out the experiment
 
 ### Deeplearning4j - DL4J
 
-The  mechanism for procedural learning based on neural networks implementation will be performed with [Eclipse Deeplearning4j toolkit](https://deeplearning4j.konduit.ai). DL4J is a framework to perform deep learning in the JVM, that allows training java models while interacting with the python ecosystem through a mixture of python execution through cpython bindings, model import support, and interoperability with other runtimes such as tensorflow-java and onnxruntime. The libraries are fully open source, Apache 2.0 under open governance on the Eclipse foundation.
+The  mechanism for procedural learning based on neural networks implementation will be performed with [Eclipse Deeplearning4j toolkit](https://deeplearning4j.konduit.ai). DL4J is a framework to perform deep learning in the JVM, that allows training java models while interacting with the python ecosystem through a mixture of python execution through cpython bindings, model import support, and interoperability with other runtimes such as *tensorflow-java* and *onnxruntime*. The libraries are fully open source, *Apache 2.0 under open governance on the Eclipse foundation*.
 
 # Methodology
 
@@ -47,7 +47,7 @@ To implement the SOAR architecture, SOAR classes will be adapted to perform with
 
 The primary objective of this study is to establish a framework to evaluate cognitive architectures within the context of developmental robotics. This proposed framework aims to evaluate cognitive agents to determine their capacity for continuous learning while avoiding catastrophic forgetting. Additionally, it seeks to evaluate their adeptness in conducting increasingly complex cognitive experiments and optimizing both memory utilization during processing and the time expended at each stage of training. In pursuit of this objective, the subsequent analysis of results is proposed:
 
-- **Cognitive Analysis**: the architectures' modules that are activated and used during agents' learning and during their validation will be analyzed according to the proposes of  [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and compared with propositions from cognitive psychology for human development, in particular, the studies of [(Piaget, 1952)](https://doi.org/10.1037/11494-000)};
+- **Cognitive Analysis**: the architectures' modules that are activated and used during agents' learning and during their validation will be analyzed according to the proposes of  [(Berto, 2020)](https://repositorio.unicamp.br/acervo/detalhe/1129257) and compared with propositions from cognitive psychology for human development, in particular, the studies of [(Piaget, 1952)](https://doi.org/10.1037/11494-000);
 
 - **Continuous Learning**: it will be verified whether the proposed methodology provides the agents the ability to learn new procedures, at different times, without forgetting previously learned procedures. Specifically, the agents' procedural memory, which stores all learned procedures, will be continuously checked;
 

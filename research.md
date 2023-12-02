@@ -7,7 +7,7 @@ subtitle:
 #  Literature Review
 ## Developmental Robotics
 
-Developmental Robotics, also known as epigenetic robotics or "devRobotics," is a multidisciplinary field that combines theories from developmental psychology, neuroscience, biology, and linguistics to create adaptable robots capable of navigating complex and unpredictable environments [(Lungarella et. al., 2007](https://doi.org/10.1080/09540090310001655110). It utilizes formalized and extended versions of these theories to develop control architectures for robots.
+Developmental Robotics, also known as epigenetic robotics or "devRobotics," is a multidisciplinary field that combines theories from developmental psychology, neuroscience, biology, and linguistics to create adaptable robots capable of navigating complex and unpredictable environments [(Lungarella et. al., 2007)](https://doi.org/10.1080/09540090310001655110). It utilizes formalized and extended versions of these theories to develop control architectures for robots.
 
 The emergence of Developmental Robotics stems from the demand for robots that can perform tasks requiring human-level intelligence in challenging environments by adapting and evolving their behavior. Models and experiments in this field draw inspiration from the principles and mechanisms observed in early human development, notably in Piaget's experiments, where robots exhibit cognitive abilities similar to those seen in children [(Piaget, 1952)](https://doi.org/10.1037/11494-000). Piaget's work emphasizes the incremental nature of human cognitive development [(Cangelosi & Schlesinger, 2014)](https://mitpress.mit.edu/books/developmental-robotics).
 
